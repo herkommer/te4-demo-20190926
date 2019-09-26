@@ -24,6 +24,12 @@ namespace ReferenceTypeDemo
             d.Name = "Arne";
 
             Console.WriteLine("Kunden c's namn: {0}, d's namn: {1}",c.Name,d.Name );
+
+            Console.WriteLine();
+            Console.WriteLine("c.ToString() = {0}",c.ToString() );
+            Console.WriteLine("c.GetType() = {0}", c.GetType());
+            Console.WriteLine("i.ToString() = {0}", i.ToString());
+            Console.WriteLine("i.GetType() = {0}", i.GetType());
         }
     }
 
